@@ -5,20 +5,20 @@ my_dict = {
     'set': {10, 9, 8, 7, 6, 200}
 }
 
-#tuple
+# tuple
 print(my_dict['tuple'][-1])
 
-#list
+# list
 my_dict['list'].append('bomboclat')
 poped = (my_dict['list'].pop(1))
 print(my_dict['list'])
 
-#dict
-my_dict['dict'] [('i am a tuple',)] = ('tuple1', 'tuple2', 'tuple3', 'tuple4', 'tuple5')
+# dict
+my_dict['dict'][('i am a tuple',)] = ('tuple1', 'tuple2', 'tuple3')
 poped = my_dict['dict'].pop('sixseven')
 print(my_dict['dict'])
 
-#set
+# set
 my_dict['set'].add(5)
 my_dict['set'].remove(200)
 print(my_dict['set'])
